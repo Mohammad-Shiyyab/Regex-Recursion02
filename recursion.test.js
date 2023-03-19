@@ -3,7 +3,6 @@
 function division(number, dividedBy) {
     // Write you logic here.
     
-    return number/dividedBy;
     if (number < dividedBy || dividedBy === 0) return 0;
     return 1 + division(number - dividedBy, dividedBy)
     
